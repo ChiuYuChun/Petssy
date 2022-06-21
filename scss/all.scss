@@ -29,24 +29,21 @@ body {
    bottom: 1%;
 z-index: 10;
 &:hover{
-    color:#9fdbf1;
+    color:gainsboro;
 }
 @media(max-width:768px){
     width: 50px;
     height: 50px;
     bottom: 5%;
     font-size: 16px;
-    padding-top: 12px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 }
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Microsoft JhengHei;
   font-size: 14px;
   color: #000;
-  margin: 0;
-  padding: 0;
 }
 
 .swiper {
@@ -170,7 +167,9 @@ margin-bottom: 100px;
     ul{
         
         width: 800px;
-        flex-wrap: wrap;
+        flex-wrap: wrap;    
+        @media (max-width:768px) {
+ 
   }
 li{
     width: 300px;
@@ -198,11 +197,17 @@ margin-bottom: 12px;
         }
  
  
-        @media (max-width:768px) {
-      margin: 0 auto;
-        }
+     
           
     }
+h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    }
+
+
+    
 .img-a{
     background: none;
 }
@@ -222,7 +227,7 @@ margin-bottom: 12px;
     padding-bottom: 15px;
      @media (max-width :768px)
      {
-        margin-left: 100px;
+     
      }
 }
 .request-message{

@@ -167,7 +167,7 @@ body {
 }
 
 .top:hover {
-  color: #9fdbf1;
+  color: gainsboro;
 }
 
 @media (max-width: 768px) {
@@ -176,18 +176,15 @@ body {
     height: 50px;
     bottom: 5%;
     font-size: 16px;
-    padding-top: 12px;
+    padding-top: 20px;
     padding-left: 10px;
   }
 }
 
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Microsoft JhengHei;
   font-size: 14px;
   color: #000;
-  margin: 0;
-  padding: 0;
 }
 
 .swiper {
@@ -320,7 +317,7 @@ body {
       flex-wrap: wrap;
 }
 
-.Product li {
+.Product ul li {
   width: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -331,14 +328,14 @@ body {
   padding-bottom: 30px;
 }
 
-.Product img {
+.Product ul img {
   width: 100px;
   height: 100px;
   margin-top: 50px;
   margin-bottom: 12px;
 }
 
-.Product a {
+.Product ul a {
   text-decoration: none;
   display: block;
   background: #B2CFDC;
@@ -347,14 +344,13 @@ body {
   font-weight: bold;
 }
 
-.Product a:hover {
+.Product ul a:hover {
   color: #44a5c9;
 }
 
-@media (max-width: 768px) {
-  .Product a {
-    margin: 0 auto;
-  }
+.Product ul h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .Product .img-a {
@@ -374,12 +370,6 @@ body {
   margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-@media (max-width: 768px) {
-  .request-front {
-    margin-left: 100px;
-  }
 }
 
 .request-message {
