@@ -1,16 +1,21 @@
 @import "_reset";
 @import "_module";
+@import "_taro";
+@import "_shop";
+@import "_hotel";
 // *{
 //     outline: 2px solid red;
 // }
 
 //swiper
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 html,
 body {
   position: relative;
   height: 100%;
 
-  
 }
 .top{
     position: fixed;
@@ -41,9 +46,11 @@ z-index: 10;
 }
 }
 body {
-  font-family: Microsoft JhengHei;
+    
   font-size: 14px;
   color: #000;
+  font-family: "TTNorms-Regular", Helvetica, "微軟正黑體", sans-serif;
+  
 }
 
 .swiper {
@@ -99,7 +106,8 @@ justify-content: space-between;
         margin: 5px;
         margin-right: 20px;
         padding-right: 10px;
-        color: #1E4B5B;
+        color: white;
+        font-size: 20px;
         &:hover{
             color: #44a5c9;
             border-bottom: 2px solid #44a5c9;
@@ -142,7 +150,6 @@ justify-content: space-between;
 }
 .banner-text{
 
-    padding-top: 48px;
     padding-bottom: 48px;
     img{
         width: 500px;
@@ -188,12 +195,12 @@ margin-bottom: 12px;
     a{
         text-decoration: none;
         display: block;
-        background: #B2CFDC;
+        background: #261E47;
         padding: 15px 40px 15px 40px;
         margin: 10px;
         font-weight: bold;
         &:hover{
-            color: #44a5c9;
+            color: gray;
         }
  
  
@@ -221,7 +228,7 @@ h3{
 
 .request-front{
     width: 300px;   
-    background: #B9E3F5;
+    background: #0B346E;
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -247,7 +254,7 @@ h3{
 }
 .request-text{
     padding: 16px 20px;
-    border-bottom: 3px solid #B9E3F5;
+    border-bottom: 3px solid #0B346E;
 }
 .request-important{
  
@@ -331,7 +338,7 @@ padding: 30px;
 }
 
 .footer{
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 20px;
     img{
         width: 30px;

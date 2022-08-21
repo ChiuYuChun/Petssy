@@ -1,8 +1,14 @@
 .bg-bl{
-    background: #DAEAF1;
+    background: #0B346E;
 }
 .t-bl{
-    color: #1E4B5B;
+    color: white;
+}
+.h5-bl{
+    color: #0B346E;
+}
+.button-bl{
+    background: #261E47;
 }
 .d-f{
     display: flex;
@@ -53,9 +59,27 @@ font-size: 48px;
 {
     margin-right: 24px;
 }
+.mr-12{
+    margin-right: 12px;
+}
 .mb-24{
     margin-bottom: 24px;
 }
+.mb-48{
+    margin-bottom: 48px;
+}
+.mt-24{
+   margin-top: 24px;
+}
+.mt-48{
+    margin-top: 48px;
+}
 .jcsb{
     justify-content: space-between;
+}
+.lh{
+    line-height: 1.5;
+}
+.m-10{
+    margin: 10px;
 }
