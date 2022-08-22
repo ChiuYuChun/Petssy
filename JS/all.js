@@ -9,7 +9,12 @@ $(document).ready(function (){
   }, 100)
   })
 })
-
+$(document).ready(function() {
+	$('.showmenu').on('click',  function(e) {
+		e.preventDefault();
+		$('.menu-list').toggleClass('active');
+	});
+});
        
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,

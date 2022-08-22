@@ -367,11 +367,11 @@ h5 {
   margin-right: 10px;
   color: white;
   padding: 8px 0;
-  border-radius: 8px;
+  border-top: 1px solid white;
 }
 
 .introduce_many a:hover {
-  color: #261E47;
+  color: #bab7c8;
 }
 
 @media (max-width: 768px) {
@@ -393,6 +393,10 @@ h5 {
   }
 }
 
+.introduce_many_stuff img {
+  cursor: pointer;
+}
+
 .product_outside {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -412,6 +416,20 @@ h5 {
 .product_in img {
   width: 430px;
   height: 480px;
+}
+
+.product_in ul a {
+  text-decoration: none;
+  color: gray;
+  border: 1px solid #0B346E;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.product_in ul a:hover {
+  background: #0B346E;
+  color: white;
 }
 
 .product_in_input {
@@ -452,6 +470,12 @@ h5 {
   font-size: 18px;
 }
 
+.page ul li:hover {
+  background: white;
+  border: 1px solid #0B346E;
+  color: #0B346E;
+}
+
 .page a {
   text-decoration: none;
 }
@@ -476,11 +500,24 @@ h5 {
 .hotel p {
   font-size: 25px;
   padding: 15px;
+  border-bottom: 3px solid #0B346E;
 }
 
 .hotel li {
   padding: 15px;
   font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  .hotel {
+    width: 95%;
+  }
+  .hotel p {
+    font-size: 18px;
+  }
+  .hotel li {
+    font-size: 16px;
+  }
 }
 
 .hotel_left, .hotel_right {
@@ -489,8 +526,8 @@ h5 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 5px solid #0B346E;
-  border-top: 3px solid #0B346E;
-  border-left: 3px solid #0B346E;
+  border-top: 5px solid #0B346E;
+  border-left: 5px solid #0B346E;
   border-right: 5px solid #0B346E;
   border-radius: 16px;
 }
@@ -587,6 +624,17 @@ body {
      object-fit: cover;
 }
 
+.swiper-slide li {
+  padding-top: 5px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.swiper-slide li img {
+  width: 80%;
+}
+
 .header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -595,22 +643,7 @@ body {
   padding-top: 20px;
 }
 
-.header .header-a {
-  text-decoration: none;
-  padding: 8px;
-  margin: 5px;
-  margin-right: 20px;
-  padding-right: 10px;
-  color: white;
-  font-size: 20px;
-}
-
-.header .header-a:hover {
-  color: #44a5c9;
-  border-bottom: 2px solid #44a5c9;
-}
-
-.header img {
+.header .header-img {
   width: 5%;
   margin-left: 20px;
   cursor: pointer;
@@ -621,7 +654,6 @@ body {
     width: 100%;
   }
   .header img {
-    width: 15%;
     margin-left: 20px;
   }
   .header .header-a {
@@ -648,10 +680,6 @@ body {
   }
 }
 
-.banner-text {
-  padding-bottom: 48px;
-}
-
 .banner-text img {
   width: 500px;
   height: 900px;
@@ -667,8 +695,18 @@ body {
   }
 }
 
+.p2txt p {
+  padding: 100px 0px;
+}
+
 .p2txt h5 {
   padding-bottom: 80px;
+}
+
+.p2txt-word img {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-left: 5px solid white;
 }
 
 .Product {
@@ -766,7 +804,7 @@ body {
 }
 
 .request-important h2 {
-  padding-top: 12px;
+  padding-top: 5px;
 }
 
 .request-important h3 {
@@ -788,9 +826,9 @@ body {
 .soosooeat-donate h4 {
   width: 350px;
   padding: 20px 16px;
-  background: #FFEFEF;
+  background: #0B346E;
   margin-left: 30px;
-  color: #1E4B5B;
+  color: white;
 }
 
 .soosooeat-donate h4:after {
@@ -802,7 +840,7 @@ body {
   border-width: 26px;
   border-style: solid;
   border-top-color: transparent;
-  border-right-color: #FFEFEF;
+  border-right-color: #0B346E;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -822,7 +860,7 @@ body {
   }
   .soosooeat-donate img {
     width: 300px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .soosooeat-donate h4 {
     margin: 0 auto;
@@ -839,7 +877,7 @@ body {
     border-style: solid;
     border-top-color: transparent;
     border-right-color: transparent;
-    border-bottom-color: #FFEFEF;
+    border-bottom-color: #0B346E;
     border-left-color: transparent;
   }
 }
@@ -867,6 +905,75 @@ body {
   }
   .footer h3 {
     margin: 0 auto;
+  }
+}
+
+.menu-list {
+  float: right;
+}
+
+.menu-list li {
+  float: left;
+}
+
+.menu-list a {
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  padding: 1em;
+}
+
+.menu-list a:hover {
+  color: #4bc2c5;
+}
+
+.showmenu {
+  display: none;
+  float: right;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.showmenu img {
+  width: 35px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .menu-list {
+    /*隱藏選單開始*/
+    max-height: 0;
+    overflow: hidden;
+    /*隱藏選單end*/
+    position: absolute;
+    /*追隨.header*/
+    /*讓選單從左到右延伸start*/
+    right: 0;
+    left: 0;
+    /*讓選單從左到右延伸end*/
+    top: 67px;
+    /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+    z-index: 100;
+    -webkit-transition: all 2.5s;
+    transition: all 2.5s;
+  }
+  .menu-list a {
+    color: #0B346E;
+  }
+  .menu-list li {
+    float: none;
+    border-bottom: 1px solid #0B346E;
+    background: white;
+  }
+  .showmenu {
+    display: block;
+  }
+  /*jQ點擊後動態在 body 加上 class*/
+  .menu-list.active {
+    max-height: 336px;
   }
 }
 /*# sourceMappingURL=all.css.map */
