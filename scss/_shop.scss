@@ -27,6 +27,14 @@ $bg-colors:#0B346E;
     background: $bg-colors;
     color:white;
 }}
+@media (max-width :768px){
+        
+    margin: 0 auto;
+    img{
+        width: 350px;
+        height: 380px;
+    }
+}
 }
 .product_in_input{
     flex-direction: column;

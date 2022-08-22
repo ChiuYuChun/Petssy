@@ -450,6 +450,16 @@ h5 {
   color: white;
 }
 
+@media (max-width: 768px) {
+  .product_in {
+    margin: 0 auto;
+  }
+  .product_in img {
+    width: 350px;
+    height: 380px;
+  }
+}
+
 .product_in_input {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
