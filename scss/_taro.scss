@@ -94,6 +94,9 @@ margin-top: 50px;
         border-radius: 20px;
         
     }
+
+
+
     h1{
 padding-left: 65px;
 margin-top: 20px;
@@ -106,10 +109,16 @@ padding-top: 20px;
         border-bottom: 3px solid  #0B346E;
 padding-bottom: 20px;
     }
+    @media (max-width :768px){
+        width: 100%;
+        iframe{
+            margin-left: 75px;
+        width: 300px;
+        height: 300px;}
+    }
 }
 .address-right{
     padding-right: 65px;
-   
     padding-bottom: 20px;
     border-right: 0.3rem solid;
      width: 600px;
@@ -119,6 +128,9 @@ padding-bottom: 20px;
      text-align: right;
      li{
         margin-top: 20px;
+     }
+     @media (max-width :768px){
+        width: 100%;
      }
     }
 h5{
