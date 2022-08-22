@@ -1,0 +1,131 @@
+$bg-colors:#0B346E;
+.bathprod{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-left: 12px solid $bg-colors;
+    padding-left: 15px;
+    img{
+        width: 45%;
+      border-radius: 15px;
+    
+    }
+   
+    @media(max-width:768px){
+        img{
+            display: none;
+        }
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.bathprod_in{
+  a{
+    text-decoration: none;
+    color:black
+  }
+  li{
+    padding: 20px;
+    border: 3px solid $bg-colors;
+    margin: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    color:$bg-colors;
+    margin-top: 50px;
+    &:hover{
+        background:$bg-colors;
+        color: white;
+    }
+  }
+}
+
+.bathprod_in_input{
+    padding: 15px;
+    p{ width: 550px;
+    line-height: 2;
+font-size: 16px;
+padding: 15px;
+color:gray}
+   
+@media(max-width:768px){
+    p{
+        width: 85%;
+        font-size: 14px;
+    }
+    h3{
+        font-size: 28px;
+    }
+}
+}
+.bathprod_in_price{
+    h4{
+        padding-top: 12px;
+        color: red;
+        padding-left: 12px;
+    }
+    span{
+        padding-left: 12px;
+    }
+    @media(max-width:768px){
+        h4{
+            font-size: 24px;
+        }
+        span{
+            font-size: 24px;
+        }
+    }
+}
+.bathprod_in__old-price{
+text-decoration: line-through;
+color: #646565;}
+
+
+.bath_know{
+padding: 50px 0px ;
+
+    width: 50%;
+    margin: 0 auto;
+    border: 4mm ridge #0B346E;
+    border-radius: 8px;
+   span{
+    text-align:left;
+    font-size: 24px;
+    color: #0B346E;
+    text-shadow: 1px 1px 2px rgb(156, 147, 149); ;
+    line-height: 1.5;
+    &:hover{
+        color:#5d87c2;
+    }
+   }
+   p{
+    font-size: 18px;
+    color:gray;
+    line-height: 2;
+    padding-left: 50px;
+   }
+   h2{
+    padding-bottom: 20px;
+   }
+   a{
+    text-decoration: none;
+    
+   }
+
+   @media(max-width:768px){
+    width: 95%;
+    p{
+        padding-left: 5px;
+        font-size: 16px;
+    }
+    span{
+        font-size: 20px;
+    }
+   }
+}
+.read{
+ padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+}

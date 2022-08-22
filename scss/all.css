@@ -538,6 +538,154 @@ h5 {
   cursor: pointer;
 }
 
+.bathprod {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-left: 12px solid #0B346E;
+  padding-left: 15px;
+}
+
+.bathprod img {
+  width: 45%;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .bathprod {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bathprod img {
+    display: none;
+  }
+}
+
+.bathprod_in a {
+  text-decoration: none;
+  color: black;
+}
+
+.bathprod_in li {
+  padding: 20px;
+  border: 3px solid #0B346E;
+  margin: 12px;
+  border-radius: 16px;
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+  color: #0B346E;
+  margin-top: 50px;
+}
+
+.bathprod_in li:hover {
+  background: #0B346E;
+  color: white;
+}
+
+.bathprod_in_input {
+  padding: 15px;
+}
+
+.bathprod_in_input p {
+  width: 550px;
+  line-height: 2;
+  font-size: 16px;
+  padding: 15px;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .bathprod_in_input p {
+    width: 85%;
+    font-size: 14px;
+  }
+  .bathprod_in_input h3 {
+    font-size: 28px;
+  }
+}
+
+.bathprod_in_price h4 {
+  padding-top: 12px;
+  color: red;
+  padding-left: 12px;
+}
+
+.bathprod_in_price span {
+  padding-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .bathprod_in_price h4 {
+    font-size: 24px;
+  }
+  .bathprod_in_price span {
+    font-size: 24px;
+  }
+}
+
+.bathprod_in__old-price {
+  text-decoration: line-through;
+  color: #646565;
+}
+
+.bath_know {
+  padding: 50px 0px;
+  width: 50%;
+  margin: 0 auto;
+  border: 4mm ridge #0B346E;
+  border-radius: 8px;
+}
+
+.bath_know span {
+  text-align: left;
+  font-size: 24px;
+  color: #0B346E;
+  text-shadow: 1px 1px 2px #9c9395;
+  line-height: 1.5;
+}
+
+.bath_know span:hover {
+  color: #5d87c2;
+}
+
+.bath_know p {
+  font-size: 18px;
+  color: gray;
+  line-height: 2;
+  padding-left: 50px;
+}
+
+.bath_know h2 {
+  padding-bottom: 20px;
+}
+
+.bath_know a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .bath_know {
+    width: 95%;
+  }
+  .bath_know p {
+    padding-left: 5px;
+    font-size: 16px;
+  }
+  .bath_know span {
+    font-size: 20px;
+  }
+}
+
+.read {
+  padding: 50px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
