@@ -427,12 +427,14 @@ h5 {
 }
 
 .product_in {
+  width: 33.3%;
   margin: 0 auto;
+  padding: 0px 30px;
   font-size: 20px;
 }
 
 .product_in img {
-  width: 430px;
+  width: 450px;
   height: 480px;
 }
 
